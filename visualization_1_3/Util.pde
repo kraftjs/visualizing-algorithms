@@ -25,3 +25,12 @@ public static class Util {
     array[j] = temp;
   }
 }
+
+class Range {
+  int left, right;
+  
+  Range(int left, int right) {
+    this.left = left;
+    this.right = right;
+  }
+}
